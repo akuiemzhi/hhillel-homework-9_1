@@ -16,12 +16,16 @@
 a:hover {
     transform: scale(1.05);
 }
+
+body {
+    background: url(img/background-img1.png) no-repeat top right;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
     width: 1440px;
     margin: 0 auto;
-    background: url(img/background-img1.png) no-repeat top right;
+    
     height: 1000px;
 }
 
